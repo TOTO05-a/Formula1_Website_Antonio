@@ -1,56 +1,122 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta name="author" content="Antonio Campuslands">
+    <meta name="description" content="Página web sobre la Formula 1, equipos, pilotos y galería multimedia.">
+    <meta name="keywords" content="Formula 1, F1, pilotos, equipos, automovilismo">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formula 1 | Antonio_CR</title>
+    <title>Formula 1 | Antonio</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="icon" href="favicon/favicon-96x96.png">
+    <link rel="icon" href="favicon/favicon-96x96.png" type="image/png">
+</head>
+
 <body>
-    <header class="hedriversro">
-        <nav class="barra-nav">
-            <div class="logo">F1 Vision</div>
-            <ul class="link-nav">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Pilotos</a></li>
-                <li><a href="#">Equipos</a></li>
-                <li><a href="#">Calendario</a></li>
-            </ul>
-        </nav>
-    </header>
-    <section class="drivers">
-        <h2 class="section-title">Los mejores Pilotos</h2>
-    
-        <div class="drivers-container">
-    
-            <div class="card">
-                <img src="imagenes/max-verstappen-profile-pic.avif" alt="Driver 1">
-                <h3>Max Verstappen</h3>
-                <p>Red Bull Racing</p>
-            </div>
-    
-            <div class="card">
-                <img src="imagenes/lewisHamilton.png" alt="Driver 2">
-                <h3>Lewis Hamilton</h3>
-                <p>Mercedes</p>
-            </div>
-    
-            <div class="card">
-                <img src="imagenes/CharlesLeclerc.png" alt="Driver 3">
-                <h3>Charles Leclerc</h3>
-                <p>Ferrari</p>
-            </div>
-    
-        </div>
-    </section>
 
+<header class="main-header">
+    <h1>Bienvenidos a la Formula 1</h1>
+</header>
 
+<nav class="menu">
+    <a href="index.html">Inicio</a>
+    <a href="#pilotos">Pilotos</a>
+    <a href="#galeria">Galería</a>
+    <a href="pages/Formulario.html">Contacto</a>
+</nav>
 
-    <div id="sky">
-        <div id="sea">
-        <div id="person"></div>
-        </div>
-        </div>
+<main>
+
+<section class="intro">
+    <h2>¿Qué es la Formula 1?</h2>
+    <p>
+        La <strong>Formula 1</strong> es la categoría más alta del automovilismo de velocidad.
+        Es conocida por su velocidad, tecnología avanzada y pilotos talentosos.
+    </p>
+</section>
+
+<hr>
+
+<section class="fotos">
+    <h2>Fotos Destacadas</h2>
+    <div class="photo-gallery">
+        <img src="imagenes/VLG6ZNDPI5GI5DNAACDDSVX7L4.jpg" alt="Auto F1">
+         <img src="favicon/web-app-manifest-192x192.png" alt="Monoplaza">
+        <img src="imagenes/Mercedes.png" alt="Checo Perez">
+       
+    </div>
+</section>
+
+<hr>
+
+<section class="video-section">
+    <h2>Video Destacado</h2>
+    <p>Mira cómo corre un auto de Formula 1 en condiciones extremas.</p>
+    <video controls class="video">
+        <source src="" type="video/mp4">
+    </video>
+</section>
+
+<hr>
+
+<section class="tabla">
+    <h2>Equipos y Pilotos</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Equipo</th>
+                <th>Piloto 1</th>
+                <th>Piloto 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Aston Martin</td>
+                <td>Fernando Alonso</td>
+                <td>Lance Stroll</td>
+            </tr>
+            <tr>
+                <td>Ferrari</td>
+                <td>Charles Leclerc</td>
+                <td>Carlos Sainz</td>
+            </tr>
+            <tr>
+                <td>McLaren</td>
+                <td>Lando Norris</td>
+                <td>Oscar Piastri</td>
+            </tr>
+            <tr>
+                <td>Mercedes</td>
+                <td>Lewis Hamilton</td>
+                <td>George Russell</td>
+            </tr>
+            <tr>
+                <td>Red Bull</td>
+                <td>Max Verstappen</td>
+                <td>Sergio Pérez</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+<hr>
+
+<section id="galeria">
+    <h2>Galería de Equipos</h2>
+    <div class="gallery">
+        <img src="imagenes/AstonMartin.png" alt="Aston Martin">
+        <img src="imagenes/Ferrari.png" alt="Ferrari">
+        <img src="imagenes/McLaren.png" alt="McLaren">
+        <img src="imagenes/Mercedes.png" alt="Mercedes">
+        <img src="imagenes/RedBull.png" alt="Red Bull">
+        <img src="imagenes/williams.png" alt="Williams">
+    </div>
+</section>
+
+</main>
+
+<footer>
+    <p>© 2026 Formula 1 Fan Page | Creado por Antonio Campuslands</p>
+</footer>
 
 </body>
 </html>
