@@ -2,55 +2,57 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="author" content="Antonio Campuslands">
+    <meta name="author" content="Antonio Cruz">
     <meta name="description" content="Carros de Formula 1">
-    <meta name="keywords" content="F1, carros, monoplazas">
+    <meta name="keywords" content="F1, carros, monoplazas, velocidad">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carros | Formula 1</title>
-    <link rel="stylesheet" href="../styles.css">
-    <link rel="icon" href="../favicon/favicon-96x96.png">
+    <title>Autos F1</title>
+    <link rel="stylesheet" href="../Formula1_Website/css/global.css">
+    <link rel="stylesheet" href="../Formula1_Website/css/pilotos.css">
+    <link rel="icon" href="img/favicon.png">
 </head>
-
 <body>
 
-<header class="main-header">
+<header>
     <h1>Carros de Formula 1</h1>
+    <nav>
+        <ul>
+            <li><a href="../Formula1_Website/index.html">Inicio</a></li>
+            <li><a href="pilotos.html">Pilotos</a></li>
+            <li><a href="pistas.html">Pistas</a></li>
+            <li><a href="formulario.html">Contacto</a></li>
+        </ul>
+    </nav>
 </header>
 
-<nav class="menu">
-    <a href="../index.html">Inicio</a>
-    <a href="pilotos.html">Pilotos</a>
-    <a href="carros.html">Carros</a>
-    <a href="pistas.html">Pistas</a>
-    <a href="contacto.html">Contacto</a>
-</nav>
+<main>
 
-<main class="container">
+<section class="content-card">
+    <div class="content-img">
+        <img src="../Formula1_Website/imagenes/RedBull.png" alt="Red Bull RB">
+    </div>
+    <div class="content-text">
+        <h2>Red Bull Racing</h2>
+        <p>Uno de los monoplazas mas dominantes de los ultimos anos. Destaca por su aerodinamica avanzada y eficiencia en curvas rapidas.</p>
+        <a href="#" class="btn">Ver Detalles</a>
+    </div>
+</section>
 
-<section>
-    <h2>Monoplazas 2026</h2>
-
-    <article class="info-card">
-        <h3>Red Bull RB</h3>
-        <p>Motor hibrido, alta eficiencia aerodinamica.</p>
-    </article>
-
-    <article class="info-card">
-        <h3>Mercedes W</h3>
-        <p>Innovacion tecnica y desarrollo constante.</p>
-    </article>
-
-    <article class="info-card">
-        <h3>Ferrari SF</h3>
-        <p>Potencia italiana y precision en pista.</p>
-    </article>
-
+<section class="content-card">
+    <div class="content-img">
+        <img src="../Formula1_Website/imagenes/Ferrari.png" alt="Ferrari F1">
+    </div>
+    <div class="content-text">
+        <h2>Ferrari</h2>
+        <p>La escuderia mas historica de la Formula 1. Sus autos combinan tradicion, potencia y tecnologia de punta.</p>
+        <a href="#" class="btn">Ver Detalles</a>
+    </div>
 </section>
 
 </main>
 
 <footer>
-    <p>© 2026 Formula 1 Fan Page | Antonio</p>
+    <p>Proyecto Scrum F1 - Campuslands 2026</p>
 </footer>
 
 </body>
