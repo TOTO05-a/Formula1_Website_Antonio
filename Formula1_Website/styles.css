@@ -266,7 +266,7 @@ section {
     position: fixed;
     width: 250px;
     z-index: 0;
-    animation: moveCar 1s linear infinite;
+    animation: moveCar 2s linear infinite;
     pointer-events: none;
     
 }
