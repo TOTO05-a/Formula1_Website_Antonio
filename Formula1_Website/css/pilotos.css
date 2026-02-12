@@ -1,0 +1,22 @@
+.pilotos-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+}
+
+.piloto-destacado {
+    background: linear-gradient(135deg, #8b0000, #1a1a1a);
+    padding: 40px;
+    border-radius: 15px;
+}
+
+.piloto-card {
+    background: #1a1a1a;
+    padding: 25px;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.piloto-card:hover {
+    transform: translateY(-5px);
+}
