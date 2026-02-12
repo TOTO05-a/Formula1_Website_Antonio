@@ -30,10 +30,10 @@ input, textarea{
     transition:0.3s;
 }
 
-input::placeholder,
+/* input::placeholder,
 textarea::placeholder{
     color:#777;
-}
+} */
 
 input:focus, textarea:focus{
     outline:none;
@@ -76,4 +76,17 @@ button:active{
         opacity:1;
         transform:translateY(0);
     }
+}
+.cajitas{
+    display: flex;
+    flex-direction: column;
+    border-color:red;
+    text-align: left;
+    outline:none;
+    border-color:red;
+    box-shadow:0 0 10px rgba(255,0,0,0.6);
+}
+.idioma{
+    display: flex;
+    text-align: left;
 }

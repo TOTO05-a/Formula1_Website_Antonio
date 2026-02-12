@@ -6,9 +6,9 @@
     <meta name="description" content="Formulario de contacto F1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
-    <link rel="stylesheet" href="../Formula1_Website/css/global.css"
+    <link rel="stylesheet" href="../Formula1_Website/css/global.css">
     <link rel="stylesheet" href="../Formula1_Website/css/formulario.css">
-    <link rel="icon" href="img/favicon.png">
+    <link rel="icon" href="../Formula1_Website/favicon/favicon-96x96.png">
 </head>
 <body>
 
@@ -24,14 +24,45 @@
     </nav>
 </header>
 
+
+
 <main>
 
 <section class="form-section">
+
     <h2>Envianos tu opinion</h2>
     <form>
+        
         <input type="text" placeholder="Nombre" required>
         <input type="email" placeholder="Correo" required>
+        
         <textarea placeholder="Mensaje" required></textarea>
+
+   <p class="idioma">Idioma</p>
+   <input type="radio" name="idioma" id="idioma" value="es"> Español
+    <input type="radio" name="idioma" id="idioma" value="en"> Ingles
+    <input type="radio" name="idioma" id="idioma" value="fr"> Frances
+        <p>Genero</p>
+        <input type="radio" name="genero" id="genero"> Masculino
+        <input type="radio" name="genero" id="genero"> Femenino
+        <br>
+
+        <p>opinion</p>
+        <input type="text" id="wall-e" name="wall-e" list="wall-e-list" placeholder="Escribe tu opinion sobre la formula 1">
+        <datalist id="wall-e-list">
+         <option value="Me encanta la marca Mercedes">
+         <option value="Max Verstappen es mi idolo">
+         <option value="Quiero ser un piloto de f1 algun dia">
+         <option value="La formula 1 es lo mejor que hay">
+        </datalist>
+        <p>hobbies</p>
+        <div class="cajitas">
+        <input type="checkbox" name="hobbies" id="hobbies" value="futbol">Futbol<br>
+        <input type="checkbox" name="hobbies" id="hobbies" value="musica">Musica<br>
+        <input type="checkbox" name="hobbies" id="hobbies" value="Puntura">Pintura<br>
+        <input type="checkbox" name="hobbies" id="hobbies" value="Cocina">Cocina<br>
+       <br>
+    </div>
         <button type="submit">Enviar</button>
     </form>
 </section>
