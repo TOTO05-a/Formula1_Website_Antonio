@@ -38,31 +38,66 @@
         
         <textarea placeholder="Mensaje" required></textarea>
 
-   <p class="idioma">Idioma</p>
-   <input type="radio" name="idioma" id="idioma" value="es"> Español
-    <input type="radio" name="idioma" id="idioma" value="en"> Ingles
-    <input type="radio" name="idioma" id="idioma" value="fr"> Frances
-        <p>Genero</p>
-        <input type="radio" name="genero" id="genero"> Masculino
-        <input type="radio" name="genero" id="genero"> Femenino
-        <br>
 
-        <p>opinion</p>
-        <input type="text" id="wall-e" name="wall-e" list="wall-e-list" placeholder="Escribe tu opinion sobre la formula 1">
-        <datalist id="wall-e-list">
-         <option value="Me encanta la marca Mercedes">
-         <option value="Max Verstappen es mi idolo">
-         <option value="Quiero ser un piloto de f1 algun dia">
-         <option value="La formula 1 es lo mejor que hay">
-        </datalist>
-        <p>hobbies</p>
-        <div class="cajitas">
-        <input type="checkbox" name="hobbies" id="hobbies" value="futbol">Futbol<br>
-        <input type="checkbox" name="hobbies" id="hobbies" value="musica">Musica<br>
-        <input type="checkbox" name="hobbies" id="hobbies" value="Puntura">Pintura<br>
-        <input type="checkbox" name="hobbies" id="hobbies" value="Cocina">Cocina<br>
-       <br>
-    </div>
+  <fieldset class="grupo-formulario">
+    <legend>Idioma</legend>
+
+    <label>
+        <input type="radio" name="idioma" value="es"> Español
+    </label>
+
+    <label>
+        <input type="radio" name="idioma" value="en"> Inglés
+    </label>
+
+    <label>
+        <input type="radio" name="idioma" value="fr"> Francés
+    </label>
+</fieldset>
+<fieldset class="grupo-formulario">
+    <legend>Género</legend>
+
+    <label>
+        <input type="radio" name="genero" value="masculino"> Masculino
+    </label>
+
+    <label>
+        <input type="radio" name="genero" value="femenino"> Femenino
+    </label>
+</fieldset>
+
+     <p>Opinión sobre la F1</p>
+<input type="text" name="opinion-f1" list="opinion-list" placeholder="Escribe tu opinión sobre la Fórmula 1">
+
+<datalist id="opinion-list">
+    <option value="Me encanta Mercedes-AMG">
+    <option value="Max Verstappen es mi ídolo">
+    <option value="Quiero ser piloto de F1 algún día">
+    <option value="La Fórmula 1 es el deporte más emocionante">
+</datalist>
+
+    <p>Equipo favorito</p>
+<fieldset class="grupo-formulario">
+    <legend>Equipo favorito</legend>
+
+    <label class="opcion">
+        <input type="checkbox" value="redbull"> Red Bull Racing
+    </label>
+
+    <label class="opcion">
+        <input type="checkbox" value="mercedes"> Mercedes-AMG
+    </label>
+
+    <label class="opcion">
+        <input type="checkbox" value="ferrari"> Ferrari
+    </label>
+
+    <label class="opcion">
+        <input type="checkbox" value="mclaren"> McLaren
+    </label>
+</fieldset>
+
+
         <button type="submit">Enviar</button>
     </form>
 </section>
